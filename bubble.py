@@ -13,7 +13,7 @@ def bubbleSort(arr):
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j], arr[j+1]
 
-arr = [64, 34, 25, 12, 22, 11, 90]
+arr = [64, 34, 25, 12, 22, 11, 7]
 bubbleSort(arr)
  
 print ("Sorted array is:")
